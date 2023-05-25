@@ -1,0 +1,23 @@
+// resets
+input {
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  &::placeholder {
+    color: rgb(205, 209, 218);
+  }
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+$blue: #355cf7;

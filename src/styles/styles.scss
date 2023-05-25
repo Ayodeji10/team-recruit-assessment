@@ -1,0 +1,357 @@
+@import "__variables";
+
+body {
+  background-color: #e4e2e2 !important;
+}
+
+.modal-dialog {
+  max-width: 1200px !important;
+  .modal-content {
+    border-radius: 0;
+    padding: 70px 50px !important;
+    i.fa-xmark {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      cursor: pointer;
+    }
+    .icon {
+      height: 50px;
+      width: 50px;
+      background-color: $blue;
+      border-radius: 50%;
+      margin-right: 15px;
+      i {
+        color: #fff;
+        transform: rotate(-20deg);
+      }
+    }
+    .logo-text {
+      font-size: 18px;
+      font-weight: 800;
+      span {
+        font-weight: 400;
+        margin-left: 0;
+      }
+    }
+    .timer {
+      background-color: #3d4162;
+      width: 21px;
+      height: 41px;
+      margin: 0 1px;
+      border-radius: 4px;
+      h4 {
+        font-size: 18px;
+        color: #fff;
+        margin-bottom: 0;
+      }
+    }
+    #column {
+      display: inline-block;
+      font-size: 24px;
+      margin: 0 2px;
+    }
+    h3 {
+      font-size: 16px;
+      font-weight: 600;
+    }
+    p {
+      font-size: 12px;
+      font-weight: 400;
+      color: rgb(176, 179, 183);
+    }
+    #edit-btn {
+      padding: 0;
+      color: $blue;
+      border: none;
+      background-color: transparent;
+      i {
+        margin-right: 10px;
+      }
+    }
+    .card-number {
+      border-radius: 10px;
+      border: solid 1px rgba(225, 230, 239, 1);
+      padding: 20px;
+      img {
+        height: 20px;
+        margin-right: 20px;
+        &:last-child {
+          margin-right: 0;
+          height: 25px;
+        }
+      }
+      input {
+        padding: 0;
+        width: 40px;
+      }
+      i {
+        font-size: 10px;
+        margin: 0 20px;
+      }
+    }
+    .input {
+      border: solid 1px rgba(225, 230, 239, 1);
+      border-radius: 10px;
+      padding: 20px;
+      &.password input {
+        text-align: left;
+      }
+      input {
+        width: 100%;
+        text-align: center;
+      }
+      i {
+        color: rgb(156, 158, 161);
+      }
+    }
+    span {
+      display: inline-block;
+      margin: 0 15px;
+    }
+    button#pay {
+      background-color: $blue;
+      color: white;
+      width: 100%;
+      padding: 20px 0;
+      border-radius: 10px;
+    }
+    .details {
+      position: relative;
+      margin-top: 100px;
+      padding: 200px 20px 20px;
+      border-radius: 20px;
+      background-color: rgba(241, 243, 249, 1);
+      //   height: max-content;
+      .card {
+        position: absolute;
+        top: -120px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 75%;
+        padding: 30px 20px;
+        background-color: white;
+        background-image: url(/bg-img/bg-img.jpg);
+        border-radius: 10px;
+        border: 1px solid rgba(225, 230, 239, 1);
+        opacity: 0.7;
+        #sim {
+          height: 40px;
+        }
+        p {
+          font-size: 14px;
+          color: black;
+          margin: 80px 0 10px;
+        }
+        h4 {
+          font-size: 14px;
+          font-weight: 600;
+          color: black;
+          i {
+            font-size: 10px;
+            margin-right: 3px;
+          }
+          span {
+            margin-left: 8px;
+          }
+        }
+        h5 {
+          font-size: 12px;
+          font-weight: 600;
+          color: black;
+        }
+        #mastercard {
+          height: 30px;
+        }
+        h6 {
+          font-size: 8px;
+          font-weight: 600;
+          color: black;
+          margin-top: 5px;
+        }
+      }
+      .top {
+        border-bottom: dashed 1px rgb(163, 164, 166);
+        p {
+          font-size: 12px;
+          color: #888383;
+          margin-bottom: 0;
+        }
+        .logo {
+          height: 20px;
+          width: 20px;
+          border-radius: 50%;
+          background-color: #3d4162;
+          margin-right: 5px;
+          i {
+            font-size: 14px;
+            color: #fff;
+          }
+        }
+        h4 {
+          font-size: 16px;
+          font-weight: 700;
+          margin-bottom: 0;
+        }
+      }
+      .bottom {
+        padding: 20px 0;
+        p {
+          font-size: 16px;
+          font-weight: 400;
+          color: rgb(156, 158, 161);
+          margin-bottom: 8px;
+        }
+        h3 {
+          font-size: 18px;
+          font-weight: 700;
+          span {
+            font-size: 16px;
+            font-weight: 400;
+            color: rgb(156, 158, 161);
+            margin-left: 8px;
+            &:first-child {
+              margin-left: 0;
+              color: black;
+            }
+          }
+        }
+        i {
+          font-size: 22px;
+        }
+      }
+      .circle {
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        background-color: white;
+        position: absolute;
+        bottom: 105px;
+        &.left {
+          left: -17px;
+        }
+        &.right {
+          right: -17px;
+        }
+      }
+    }
+  }
+}
+
+// media queries
+@media (min-width: 1120px) and (max-width: 1399px) {
+  .modal-dialog {
+    max-width: 1100px !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1119px) {
+  .modal-dialog {
+    max-width: 980px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .modal-dialog {
+    max-width: 740px !important;
+    .modal-content {
+      padding: 70px 20px !important;
+      .icon {
+        height: 40px;
+        width: 40px;
+        margin-right: 10px;
+        i {
+          color: #fff;
+          transform: rotate(-20deg);
+        }
+      }
+      .card-number {
+        padding: 15px 5px;
+        img {
+          margin-right: 10px;
+        }
+        input {
+          width: 37px;
+        }
+        i {
+          font-size: 10px;
+          margin: 0 10px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .modal-dialog {
+    max-width: 560px !important;
+    .modal-content {
+      padding: 70px 20px !important;
+    }
+  }
+}
+
+@media (min-width: 386px) and (max-width: 575px) {
+  .modal-dialog {
+    max-width: 370px !important;
+    margin: 10px auto !important;
+    .modal-content {
+      padding: 70px 20px !important;
+      .icon {
+        height: 40px;
+        width: 40px;
+        margin-right: 10px;
+        i {
+          color: #fff;
+          transform: rotate(-20deg);
+        }
+      }
+      .card-number {
+        padding: 15px 5px;
+        img {
+          margin-right: 10px;
+        }
+        input {
+          width: 37px;
+        }
+        i {
+          font-size: 10px;
+          margin: 0 10px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 385px) {
+  .modal-dialog {
+    max-width: 350px !important;
+    margin: 10px auto !important;
+    .modal-content {
+      padding: 70px 20px !important;
+      .icon {
+        height: 40px;
+        width: 40px;
+        margin-right: 10px;
+        i {
+          color: #fff;
+          transform: rotate(-20deg);
+        }
+      }
+      .card-number {
+        padding: 15px 5px;
+        img {
+          margin-right: 10px;
+        }
+        input {
+          width: 37px;
+        }
+        i {
+          font-size: 10px;
+          margin: 0 10px;
+        }
+      }
+    }
+  }
+}

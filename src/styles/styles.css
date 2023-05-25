@@ -1,0 +1,259 @@
+input {
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+}
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input::-moz-placeholder {
+  color: rgb(205, 209, 218);
+}
+input::placeholder {
+  color: rgb(205, 209, 218);
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+body {
+  background-color: #e4e2e2 !important;
+}
+
+.modal-dialog {
+  width: 1200px !important;
+}
+.modal-dialog .modal-content {
+  padding: 70px 50px !important;
+  border-radius: 0;
+}
+.modal-dialog .modal-content .content {
+  position: relative;
+}
+.modal-dialog .modal-content .content i.fa-xmark {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.modal-dialog .modal-content .content .icon {
+  height: 50px;
+  width: 50px;
+  background-color: #355cf7;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.modal-dialog .modal-content .content .icon i {
+  color: #fff;
+  transform: rotate(-20deg);
+}
+.modal-dialog .modal-content .content .logo-text {
+  font-size: 18px;
+  font-weight: 800;
+}
+.modal-dialog .modal-content .content .logo-text span {
+  font-weight: 400;
+}
+.modal-dialog .modal-content .content .timer {
+  background-color: #3d4162;
+  width: 21px;
+  height: 41px;
+  margin: 0 1px;
+  border-radius: 4px;
+}
+.modal-dialog .modal-content .content .timer h4 {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 0;
+}
+.modal-dialog .modal-content .content #column {
+  display: inline-block;
+  font-size: 24px;
+  margin: 0 2px;
+}
+.modal-dialog .modal-content .content h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.modal-dialog .modal-content .content p {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(176, 179, 183);
+}
+.modal-dialog .modal-content .content #edit-btn {
+  padding: 0;
+  color: #355cf7;
+  border: none;
+  background-color: transparent;
+}
+.modal-dialog .modal-content .content #edit-btn i {
+  margin-right: 10px;
+}
+.modal-dialog .modal-content .content .card-number {
+  border-radius: 10px;
+  border: solid 1px rgb(225, 230, 239);
+  padding: 20px;
+}
+.modal-dialog .modal-content .content .card-number img {
+  height: 20px;
+  margin-right: 20px;
+}
+.modal-dialog .modal-content .content .card-number img:last-child {
+  margin-right: 0;
+  height: 25px;
+}
+.modal-dialog .modal-content .content .card-number input {
+  padding: 0;
+  width: 40px;
+}
+.modal-dialog .modal-content .content .card-number i {
+  font-size: 10px;
+  margin: 0 20px;
+}
+.modal-dialog .modal-content .content .input {
+  border: solid 1px rgb(225, 230, 239);
+  border-radius: 10px;
+  padding: 20px;
+}
+.modal-dialog .modal-content .content .input.password input {
+  text-align: left;
+}
+.modal-dialog .modal-content .content .input input {
+  width: 100%;
+  text-align: center;
+}
+.modal-dialog .modal-content .content .input i {
+  color: rgb(156, 158, 161);
+}
+.modal-dialog .modal-content .content span {
+  display: inline-block;
+  margin: 0 15px;
+}
+.modal-dialog .modal-content .content button#pay {
+  background-color: #355cf7;
+  color: white;
+  width: 100%;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+.modal-dialog .modal-content .content .details {
+  position: relative;
+  margin-top: 100px;
+  padding: 200px 20px 20px;
+  border-radius: 20px;
+  background-color: rgb(241, 243, 249);
+}
+.modal-dialog .modal-content .content .details .card {
+  position: absolute;
+  top: -120px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 75%;
+  padding: 30px 20px;
+  background-color: white;
+  background-image: url(/img/bg-img.jpg);
+  border-radius: 10px;
+  border: 1px solid rgb(225, 230, 239);
+  opacity: 0.7;
+}
+.modal-dialog .modal-content .content .details .card #sim {
+  height: 40px;
+}
+.modal-dialog .modal-content .content .details .card p {
+  font-size: 14px;
+  color: black;
+  margin: 80px 0 10px;
+}
+.modal-dialog .modal-content .content .details .card h4 {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+}
+.modal-dialog .modal-content .content .details .card h4 i {
+  font-size: 10px;
+}
+.modal-dialog .modal-content .content .details .card h4 span {
+  margin-left: 8px;
+}
+.modal-dialog .modal-content .content .details .card h5 {
+  font-size: 12px;
+  font-weight: 600;
+  color: black;
+}
+.modal-dialog .modal-content .content .details .card #mastercard {
+  height: 30px;
+}
+.modal-dialog .modal-content .content .details .card h6 {
+  font-size: 8px;
+  font-weight: 600;
+  color: black;
+}
+.modal-dialog .modal-content .content .details .top {
+  border-bottom: dashed 1px rgb(163, 164, 166);
+}
+.modal-dialog .modal-content .content .details .top p {
+  font-size: 12px;
+  color: #888383;
+  margin-bottom: 0;
+}
+.modal-dialog .modal-content .content .details .top .logo {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #3d4162;
+  margin-right: 5px;
+}
+.modal-dialog .modal-content .content .details .top .logo i {
+  font-size: 14px;
+  color: #fff;
+}
+.modal-dialog .modal-content .content .details .top h4 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.modal-dialog .modal-content .content .details .bottom {
+  padding: 20px 0;
+}
+.modal-dialog .modal-content .content .details .bottom p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(156, 158, 161);
+  margin-bottom: 8px;
+}
+.modal-dialog .modal-content .content .details .bottom h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.modal-dialog .modal-content .content .details .bottom h3 span {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(156, 158, 161);
+  margin-left: 8px;
+}
+.modal-dialog .modal-content .content .details .bottom h3 span:first-child {
+  margin-left: 0;
+  color: black;
+}
+.modal-dialog .modal-content .content .details .bottom i {
+  font-size: 22px;
+}
+.modal-dialog .modal-content .content .details .circle {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  bottom: 105px;
+}
+.modal-dialog .modal-content .content .details .circle.left {
+  left: -17px;
+}
+.modal-dialog .modal-content .content .details .circle.right {
+  right: -17px;
+}/*# sourceMappingURL=styles.css.map */
