@@ -102,6 +102,7 @@ function App() {
         </div>
         <div className="col-lg-4 col-md-6 mb-md-0 mt-md-0 mt-5">
           <div className="details">
+            <div className="bar"></div>
             <div className="card">
               <div className="d-flex justify-content-between align-items-center">
                 <img id="sim" src="./img/sim.png" alt="" />

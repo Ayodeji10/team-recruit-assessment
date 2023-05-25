@@ -122,7 +122,17 @@ body {
       padding: 200px 20px 20px;
       border-radius: 20px;
       background-color: rgba(241, 243, 249, 1);
-      //   height: max-content;
+      .bar {
+        position: absolute;
+        top: -130px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 35%;
+        height: 10px;
+        border-radius: 10px;
+        background-color: $blue;
+      }
       .card {
         position: absolute;
         top: -120px;
